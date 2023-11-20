@@ -1,8 +1,8 @@
 import React from 'react';
+import SignIn from './SignIn';
 
 function App() {
-  const value = 'World';
-  return <div>Hello {value}</div>;
+  return <SignIn />;
 }
 
 export default App;
